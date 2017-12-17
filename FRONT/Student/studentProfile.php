@@ -23,8 +23,8 @@
 		header("Location: https://web.njit.edu/~crk23/resport/login/login.php");
 	}
 
-    $access_key         = "AKIAIL44NAJSCB7A2O4A"; //Access Key
-	$secret_key         = "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"; //Secret Key
+    $access_key         = "accesskey"; //Access Key
+	$secret_key         = "secretkey"; //Secret Key
 	$my_bucket          = "aws-resport"; //bucket name
 	$region             = "us-east-1"; //bucket region
 	$success_redirect   = 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
